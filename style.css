@@ -3,73 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* BODY */
+.image {
+  width: 400px;
+}
+.container-main {
+  background-color: blue;
+  width: 850px;
+  margin: 40px auto;
+}
 .container {
-  background-color: #407bff;
-}
-
-.container_main {
-  background-color: rgb(156, 245, 213);
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  column-gap: 30px;
+  row-gap: 20px;
   border-radius: 2rem;
-  padding: 4rem;
-  width: 80%;
-  margin: 2em 2em;
-  margin-left: 8rem;
-  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 25px;
 }
-
-.header {
+.main-header {
   display: flex;
-  margin-top: -40px;
-  text-align: center;
-}
-
-.logo {
-  padding: 60px;
-}
-
-/* List item */
-.navbar {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  margin-top: 2rem;
-}
-
-.navbar li a {
-  text-decoration: none;
   justify-content: space-between;
-  padding-left: 1.5rem;
+  margin: 15px;
+  padding: 15px;
+  grid-column: 1/-1;
+}
+.navbar {
   font-size: 18px;
+}
+a:link {
+  text-decoration: none;
+  padding: 6px;
   color: darkblue;
 }
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 30px;
-  justify-content: center;
-  align-items: center;
+em {
+  color: orangered;
 }
-
-/* Elements */
 h1 {
   font-size: 40px;
-  margin-top: 1rem;
+  padding: 15px;
 }
-
-h3 {
+h4 {
+  font-size: 15px;
+  padding: 15px;
+}
+.logo {
   font-size: 35px;
-  margin-top: 1.5rem;
-  margin-left: -20px;
 }
-
-em {
-  color: rgb(255, 65, 12);
-}
-
-/* Button */
-.btn {
+button {
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
   font-weight: 100;
@@ -78,16 +59,11 @@ em {
   border: none;
   cursor: pointer;
   text-align: center;
-  margin-top: 3rem;
-  background-color: #407bff;
+  margin: 20px;
+  background-color: blue;
 }
 
 .btn:hover {
   background-color: white;
-  color: #407bff;
-}
-
-/* Image */
-.image {
-  width: 330px;
+  color: blue;
 }
