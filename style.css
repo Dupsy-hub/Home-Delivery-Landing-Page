@@ -29,7 +29,7 @@
   align-items: center;
   gap: 30px;
   margin: 15px;
-  padding: 15px;
+  margin-top: 30px;
   grid-column: 1/-1;
 }
 .navbar {
@@ -37,7 +37,7 @@
 }
 a:link {
   text-decoration: none;
-  padding: 6px;
+  padding: 8px;
   color: darkblue;
 }
 em {
