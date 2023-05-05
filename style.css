@@ -21,7 +21,7 @@ html {
   column-gap: 3rem;
   column-gap: 2rem;
   row-gap: 2rem;
-  border-radius: 2rem;
+  border-radius: 3rem;
   padding: 0 2rem;
   margin: 0 2.5rem;
 }
@@ -65,6 +65,7 @@ h4 {
 
 .image {
   width: 85%;
+  margin-top: 2.5rem;
   border-radius: 3rem;
   box-shadow: 0 2rem 3rem 0 rgb(0, 98, 255);
 }
